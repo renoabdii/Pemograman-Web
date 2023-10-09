@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Halaman Web Kesehatan</title>
+    <style>
+        /* Style untuk teks berwarna biru dan ukuran teks besar */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #0072bb;
+            font-size: 24px;
+        }
+
+        p {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Style untuk tautan */
+        a {
+            color: #0072bb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Style untuk gambar */
+        .health-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Heading -->
+    <h1>Selamat Datang di Halaman Web Kesehatan</h1>
+
+    <!-- Paragraf -->
+    <p>
+        Kesehatan adalah aset berharga yang harus dijaga. 
+        Kami menyediakan informasi dan sumber daya untuk membantu Anda 
+        menjalani gaya hidup yang sehat dan bahagia. Silakan telusuri
+        <a href="artikel-kesehatan.html">artikel kesehatan</a> kami
+        untuk informasi lebih lanjut.
+    </p>
+
+    <!-- Gambar dengan atribut "class" -->
+    <img src="kesehatan.jpg" alt="Ilustrasi Kesehatan" class="health-image">
+
+    <!-- Form -->
+    <form action="/subscribe" method="post">
+        <label for="email">Berlangganan Newsletter:</label>
+        <input type="email" id="email" name="email" required>
+        <input type="submit" value="Berlangganan">
+    </form>
+</body>
+
+</html>
